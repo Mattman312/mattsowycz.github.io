@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+
+
+
+
+<body> 
+
+
+
+    <!-- Navbar -->
+    <div id=navbar_wrapper>
+        <div class="nav-link-wrapper">
+            <a href="../../index.html">Home</a>
+
+        </div>
+        <div class="nav-link-wrapper">
+            <!--<a href="./About.html">About</a>          -->
+        </div>
+        <div>
+            <!--Portfolio-->
+        </div>
+        
+        
+
+
+    </div>
+
+    <!-- Info -->
+    <div id=info_text_wrapper>
+        <div id=info_text>
+            Welcome to my quiz app! Use the buttons to limit your category selection, or use the "All" button to reset your selection. Once finished, hit Start Quiz to begin.
+        </div>
+    </div>
+
+    <!-- wrapper(buttons) , wrapper (button), button-->
+    
+    <div id=all_button_banner>   
+           <button id=button_all>All</button>
+    </div>
+
+
+        <div id=wrapper_buttons>
+        
+        <button  class=selector_button id=button_geography>Geography
+        
+        </button>
+         
+        <button  class=selector_button id=button_science> Science</button>
+        <button  class=selector_button id=button_history> History</button>
+        <button  class=selector_button id=button_animals> Animals</button>
+        <button  class=selector_button id=button_entertainment> Entertainment </button>
+        <button  class=selector_button id=button_sports> Sports</button>
+
+    </div>
+
+
+
+    <!-- Question Window-->
+    <div id=question_section>
+    <div id=wrapper_question_window>
+
+        <div id=category_unselected_text>
+            There are no categories selected
+        </div>
+
+       
+        
+
+        <div id=question_wrapper> - </div>
+
+        <div id=answers_wrapper>
+        <div class=answer_wrapper id=answer_wrapper0>
+            <div class=answer id=answer0> - </div>
+        </div>
+
+        <div class=answer_wrapper id=answer_wrapper1>
+            <div class=answer id=answer1> - </div>
+        </div>
+
+        <div class=answer_wrapper id=answer_wrapper2>
+            <div class=answer id=answer2> - </div>
+        </div>
+
+        <div class=answer_wrapper id=answer_wrapper3>
+            <div class=answer id=answer3> - </div>
+       </div>
+
+       <div id=display_correctness>
+           
+       </div>
+
+        </div>
+        
+        <div id=question_bottom_navbar>
+
+            <div id=generate_quiz>Start Quiz</div>
+
+
+            <div id=submit_answer>
+                Submit Answer
+            </div>
+
+            <div id=next_question>
+                Next Question
+            </div>
+
+       </div>
+        
+
+    </div>
+    </div>
+
+    <div id=footer-text-wrapper>
+        <div id=footer_text>
+            This application uses Open Trivia Database (https://opentdb.com/api_config.php) to retrieve questions.
+        </div>
+    </div>
+
+    <div class="nav-link-wrapper">
+        <a href="https://github.com/Mattman312/Quiz_app" id="Github_text"> Github </a>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+
+<script src="question.js"></script>
+
+
+
+
+</html>
